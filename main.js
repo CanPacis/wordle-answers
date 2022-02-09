@@ -1,7 +1,7 @@
 const express = require("express");
 const tr_list = require("./tr_list.json");
-require("dotenv").config();
 const en_list = require("./en_list.json");
+require("dotenv").config();
 
 const app = express();
 const port = process.env.PORT;
